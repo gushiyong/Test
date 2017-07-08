@@ -1,6 +1,0 @@
-   private void translateSlider(float fromXDelta, float toXDelta) {
-        TranslateAnimation animation = new TranslateAnimation(fromXDelta, toXDelta, 0, 0);
-        animation.setDuration(200);
-        animation.setFillAfter(true);
-        mViewSlider.startAnimation(animation);
-    }
